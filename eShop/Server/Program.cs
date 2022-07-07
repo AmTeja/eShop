@@ -1,6 +1,8 @@
 global using eShop.Shared;
+global using System.Net.Http.Json;
 global using Microsoft.EntityFrameworkCore;
 global using eShop.Server.Data;
+global using eShop.Server.Services.ProductServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,8 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 

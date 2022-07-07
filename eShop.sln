@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Server", "eShop\Server\eShop.Server.csproj", "{1EBAE018-8BC4-40AD-8C13-7624C054F86F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Server", "eShop\Server\eShop.Server.csproj", "{1EBAE018-8BC4-40AD-8C13-7624C054F86F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Client", "eShop\Client\eShop.Client.csproj", "{0E23AD41-96EE-40BA-9DB8-162FBA7B9429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Client", "eShop\Client\eShop.Client.csproj", "{0E23AD41-96EE-40BA-9DB8-162FBA7B9429}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Shared", "eShop\Shared\eShop.Shared.csproj", "{813BD8B6-F689-46D9-B02A-731688873044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Shared", "eShop\Shared\eShop.Shared.csproj", "{813BD8B6-F689-46D9-B02A-731688873044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

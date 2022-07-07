@@ -14,6 +14,9 @@ namespace eShop.Shared
         public string Description { get; set; } = String.Empty;
         public string ImageUrl { get; set; } = String.Empty;
         [Column(TypeName = "decimal(18,2)")]
-        public decimal Price { get; set; }
+        public decimal Price { get; set; } 
+        public Category? category { get; set; }
+        public int CategoryId { get; set; }
+
     }
 }
